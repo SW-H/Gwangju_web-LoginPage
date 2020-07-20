@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GwangjuAI Web</title>
+    
+</head>
+
+<body>
+    <h1>회원가입</h1> 
+    <div>
+        <form action='http://server.Gwangju-AI.com' method="POST">
+            <label for = "userID">ID : </label>
+            <input name="userID" placeholder = "아이디를 입력하세요" type="text" />
+            <br />
+            <br />
+            <label for = "userPW">PW : </label>
+            <input
+                name = "userPW"
+                placeholder="비밀번호를 입력하세요"
+                type="password"
+            />
+            <br />
+            <br />
+            <label for = "class">해당 반을 선택하세요 </label>
+            <select name = "class">
+                <option value="1반">class1</option>
+                <option value="2반">class2</option>
+                <option value="3반">class3</option>
+                <option value="4반">class4</option>
+                <option value="5반">class5</option>
+                <option value="6반">class6</option>
+            </select>
+            <br />
+            <br />
+            <button type="완료">완료 후 클릭하세요</button>
+        </form>
+    </div>   
+</body>
+</html>
